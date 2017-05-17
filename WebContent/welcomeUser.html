@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome</title>
+<link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="welcome">
+<!-- <img src="http://iyfilm.org/wp-content/uploads/2013/10/film-roll.jpg" width="60" height="60" style="height: 86px; width: 139px; "/> -->
+<img src="C:\Users\Surekha\Desktop\CS6665\nf.jpg" width="60" height="60" style="height: 86px; width: 939px; "/>
+<h2 style="color:brown"> Welcome to VTFlix Application</h2>
+
+<form action="Search" method="post">
+<h3 style="color:brown">Video Search</h3>
+ <input type="text" size="60" name="title" style="width: 342px; "/>&nbsp;&nbsp;&nbsp;<input type="submit" value="Search" style="height: 31px; width: 84px; "/>
+</form>
+
+<form action="Search" method="get">
+<input type="submit" name="view" Value="View All Videos" style="width: 144px; height: 40px"/>
+</form> 
+<br></br>
+<form action="TvProgram" method="post">
+<input type="submit" value="Tv Collection" style="width: 144px; height: 40px"/>
+</form>
+<br></br>
+<form action="Ratings" method="post">
+<label>Rating</label>&nbsp;<select id="rate" name="rate" style="height: 28px; width: 144px; ">
+<option value="5">Excellent</option>
+<option value="4">very good</option>
+<option value="3">good</option>
+<option value="2">Not Good</option>
+<option value="1">Poor</option>
+</select>
+<br></br>
+<label>Video</label>&nbsp;&nbsp;&nbsp;<input type="text" name="title" id="title" style="width: 159px; "/>
+<input type="submit" name="btn" value="Rate" style="height: 30px; width: 97px; "/>
+</form>
+<input type="button"  name="Logout" Value="Logout" onClick="window.location.href='login.html'" style="height: 34px; width: 89px"/>
+</div>
+</body>
+</html>

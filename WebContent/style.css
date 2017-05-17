@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2016, 6:15:33 PM
+    Author     : shravya
+*/
+
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+body {
+  background: #ffb3b3 no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.login-card {
+  padding: 40px;
+  width: 274px;
+  background-color: #F6F6F6;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.login-card h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login-card input[type=text], input[type=password]{
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #ffe;
+  border: 1px solid #d6d6d6;
+  border-top: 1px solid #c1c1c1;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.welcome input[type=text]
+{
+  height: 30px;
+  font-size: 16px;
+  width: 35%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #ffe;
+  border: 1px solid #d6d6d6;
+  border-top: 1px solid #c1c1c1;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.welcome input[type=submit]
+{
+  border: solid 1px;
+  border-radius: 5px;
+  align : center;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); 
+  width:10%;
+  color: green;
+  background-color: green;
+}
+.welcome input[type=button]
+{
+  border: solid 1px;
+  border-radius: 5px;
+  align : center;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); 
+  width:10%;
+  color:green;
+  background-color: green;
+}
+.stylelogin{
+	background-color:#ffb3b3;
+}
+.wel{
+	background-color:#E6E6FA;
+	align : center;
+}
+.input-text{
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #ffe;
+  border: 1px solid #d6d6d6;
+  border-top: 1px solid #c1c1c1;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.login-card input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b6b6b6;
+  border-top: 1px solid #a1a1a1;
+  align : center;
+ 
+}
+
+.login {
+  text-align: left;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: solid 1px;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); 
+  width:10%;
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+ 
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
